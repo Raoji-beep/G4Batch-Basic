@@ -1,0 +1,26 @@
+h1{
+    color: darkblue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    background-color: lightgoldenrodyellow;
+    border-bottom: 5px solid darkgoldenrod;
+    border-top: 5px solid darkgoldenrod;
+    border-left: 5px solid darkgoldenrod;
+    border-right: 5px solid darkgoldenrod;
+}
+#p1{
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    border-radius: 5px black;
+    border-bottom: 5px solid darkgoldenrod;
+    border-top: 5px solid darkgoldenrod;
+    border-left: 5px solid darkgoldenrod;
+    border-right: 5px solid darkgoldenrod;
+    font-weight: bold;
+    font-style: italic;
+    
+}

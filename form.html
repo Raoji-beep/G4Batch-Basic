@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Songs Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<bodys>
+    <h1 align="center" style="color: blue; background-color: lightgoldenrodyellow;">FILL UP THE FORM</h1>
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+
+
+
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="enter your user ID" maxlength="18" minlength="8" required><br><br>
+
+
+
+        <label for="password">Enter Pass</label>
+        <input type="password" id="password" placeholder="include special,number,alphabet" minlength="8" maxlength="18"
+            required><br><br>
+
+
+        <label for="email">email ID:</label>
+        <input type="email" id="email"><br><br>
+
+
+        <label for="number" style="color: blueviolet;">Mobile Number:</label>
+        <input type="tel" id="number" placeholder="enter 10 digit number" minlength="10" maxlength="10"
+            placeholder="enter your mobile number" pattern="[6-9]{1}[0-9]{9}"><br><br>
+
+
+        <label for="date">Date of Birth:</label>
+        <input type="date" id="date"><br><br>
+
+        <label for="quantity">quantity</label>
+        <input type="number" id="quantity" max="99" min="1"><br><br>
+
+        <label for="title">Title:</label>
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" id="Mrs." value="Mrs." name="title">
+        <label for="PhD.">PhD.</label>
+        <input type="radio" id="PhD." value="PhD." name="title"><br><br>
+
+
+        <label for="payment">Choose a Payment method:</label>
+        <select>
+            
+            <option value="Visa">Visa</option>
+            <option value="MasterCard">MasterCard</option>
+            <option value="rupay">Rupay</option>
+        </select><br><br>
+
+
+        <label for="checkbox">I agree to the terms and conditions:</label>
+        <input type="checkbox" id="checkbox"><br><br>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" rows="3" cols="30" placeholder="enter your review"></textarea><br><br>
+
+        <label for="files">Upload Files:</label>
+        <input type="file" id="files" accept="image/png , image/jpeg, image/webp" ><br><br>
+
+        <input type="reset" value="clear" style="border-radius: 5px; background-color: aquamarine;"><br><br>
+        <input type="submit" value="login" style="background-color: aquamarine; border-radius: 5px;">
+
+    </form>
+    </body>

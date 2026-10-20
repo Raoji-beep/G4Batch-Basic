@@ -1,0 +1,217 @@
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #29271f;
+    background: #fff;
+}
+
+/* Navigation */
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background: white;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #444;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #ff4051;
+}
+
+.icons {
+    display: flex;
+    gap: 18px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+/* Hero section */
+/* .hero {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 8%;
+    background: #f5f0e5;
+    gap: 40px;
+}
+
+.content {
+    flex: 1;
+}
+
+.tag {
+    color: #ff4051;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: clamp(45px, 5vw, 68px);
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #666;
+    max-width: 380px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background: #ff4051;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #df2f40;
+}
+
+/* Fashion image */
+/*.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+    max-width: 430px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+/* Footer */
+/*footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 13px;
+}
+
+/* Mobile layout */
+/*@media (max-width: 700px) {
+    header {
+        padding: 20px 5%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 45px 7%;
+    }
+
+    .description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .image img {
+        height: 350px;
+    }
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.header-overLay {
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    background-color: rgb(226, 176, 115);
+}
+
+.logo h2 {
+    color: #555;
+    font-size: 26px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.header-overLay > ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-overLay > ul li {
+    margin: 0 10px;
+}
+
+.header-overLay > ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 18px;
+}
+.hero{
+    background-image: url("https://htmldemo.net/destry/destry/assets/images/slider/slide-1.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

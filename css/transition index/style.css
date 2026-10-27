@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add this new class to make the 2x2 square */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 200px); /* 2 columns, each 200px wide */
+    width: 400px;                            /* Total width of the square */
+}
+
+
+.img {
+        width: 400px;
+        height: 400px;
+        align-content: center;
+        display: flex;
+        background-image: url("https://in.pinterest.com/pin/1024006034021048878");
+        }
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+  transition: all 1s ease;
+  transform-origin: top left;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color:aqua;
+  transition: all 1s ease;
+  transform-origin: bottom left;
+}
+
+
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color:chocolate;
+  transition: all 1s ease;
+  transform-origin: bottom right;
+
+}
+
+
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color:chartreuse;
+  transition: all 1s ease;
+  transform-origin: top right;
+}
+
+.grid-container:hover{
+    .box{
+        transform: translateX(200px);
+        transform:rotate(-270deg);
+    }
+    .box2{
+        transform: translateX(200px);
+        transform:rotate(270deg);
+    }
+    .box3{
+        transform: translateX(200px);
+        transform:rotate(-270deg);
+    }
+    .box4{
+        transform: translateX(200px);
+        transform:rotate(270deg);
+    }
+}
